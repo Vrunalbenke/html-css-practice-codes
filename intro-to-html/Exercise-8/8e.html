@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Request-a-ride
+        </title>
+        <style>
+            p{
+                font-family: Arial;
+                font-style:bold;
+                font-size: 35px;
+                margin-bottom: 0px;
+            }
+
+            .pickup{
+                border:none;
+                margin-top:20px;
+                width:300px;
+                background-color: rgb(241, 238, 238);
+                height:40px;
+                padding-left: 20px;
+            }
+
+            .enter{
+                border:none;
+                margin-top:10px;
+                width:300px;
+                background-color: rgb(241, 238, 238);
+                height:40px;
+                padding-left: 20px;
+                display: block;
+            }
+            
+            .request{
+                
+                margin-top:15px;
+                background-color: black;
+                color:white;
+                height:35px;
+                width:110px;
+                cursor: pointer;
+                transition: opacity 0.15s;
+            }
+
+            .request:hover{
+                opacity:0.8;
+            }
+
+            .later{
+                margin-left: 15px;
+                height:35px;
+                width:140px;
+                border:none;
+                cursor: pointer;
+                transition: background-color 0.15s , color 0.15s;
+            }
+
+            .later:hover{
+                background-color: black;
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <p>
+            Request a ride now
+        </p>
+
+        <input class="pickup" type="text" placeholder="Enter pickup location">
+        <input class="enter" type="text" placeholder="Enter destination">
+
+        <button class="request">
+            Request now
+        </button>
+
+        <button class="later">
+            Schedule for later
+        </button>
+    </body>
+</html>
